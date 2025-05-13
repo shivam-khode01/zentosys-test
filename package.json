@@ -1,0 +1,22 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "A command-line tool to fetch and display weather information",
+  "main": "weather.js",
+  "bin": {
+    "weather": "./weather.js"
+  },
+  "scripts": {
+    "start": "node weather.js"
+  },
+  "keywords": [
+    "weather",
+    "cli",
+    "openweathermap"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
